@@ -1,0 +1,373 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_POWER
+   (shape (circ TOP 127000 0 0))
+   (shape (circ I1 127000 0 0))
+   (shape (circ I2 127000 0 0))
+   (shape (circ I3 127000 0 0))
+   (shape (circ I4 127000 0 0))
+   (shape (circ I5 127000 0 0))
+   (shape (circ I6 127000 0 0))
+   (shape (circ I7 127000 0 0))
+   (shape (circ I8 127000 0 0))
+   (shape (circ I9 127000 0 0))
+   (shape (circ I10 127000 0 0))
+   (shape (circ I11 127000 0 0))
+   (shape (circ I12 127000 0 0))
+   (shape (circ I13 127000 0 0))
+   (shape (circ I14 127000 0 0))
+   (shape (circ BOT 127000 0 0))
+  )
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 127000 0 0))
+   (shape (circ I1 127000 0 0))
+   (shape (circ I2 127000 0 0))
+   (shape (circ I3 127000 0 0))
+   (shape (circ I4 127000 0 0))
+   (shape (circ I5 127000 0 0))
+   (shape (circ I6 127000 0 0))
+   (shape (circ I7 127000 0 0))
+   (shape (circ I8 127000 0 0))
+   (shape (circ I9 127000 0 0))
+   (shape (circ I10 127000 0 0))
+   (shape (circ I11 127000 0 0))
+   (shape (circ I12 127000 0 0))
+   (shape (circ I13 127000 0 0))
+   (shape (circ I14 127000 0 0))
+   (shape (circ BOT 127000 0 0))
+  )
+  )
+  (network_out
+   (Net #00001 
+   (rule
+   )
+   (wire (path TOP 101600  4699000 2540000 3048000 2540000)
+    (connect (terminal pin BUZ1-0) (terminal pin U1-14))
+   )
+   )
+   (Net #00002 
+   (rule
+   )
+   (wire (path TOP 101600  2540000 2540000 2540000 3111500 -4254500 3111500
+     -4254500 -3429000 -3810000 -3429000)
+    (connect (terminal pin U1-16) (terminal pin Q5-1))
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   (wire (path TOP 88900  2540000 1778000 2540000 1587500 2794000 1587500
+     2794000 990998 1968500 990998 1968500 -2984500 1744980 -2984500)
+    (connect (terminal pin U1-11) (terminal smd Q4-1))
+   )
+   )
+   (Net #00005 
+   (rule
+   )
+   (wire (path TOP 101600  4953000 -635000 5080000 -635000 5080000 -1714500
+     4381500 -1714500 4381500 -952500 4635500 -952500 4635500 -444500
+     4318000 -444500 4318000 63500 3381774 63500 3381774 1968500
+     2286000 1968500 2286000 1778000)
+    (connect (terminal pin Q1-1) (terminal pin U1-10))
+   )
+   )
+   (Net #00015 
+   (rule
+   )
+   (wire (path TOP 101600  2032000 1778000 2032000 1143000 3048000 1143000
+     3048000 -127000 4064000 -127000)
+    (connect (terminal pin U1-9) (terminal pin C7-1))
+   )
+   (wire (path TOP 101600  4064000 -317500 4064000 -127000)
+    (connect (terminal wire) (terminal pin C7-1))
+   )
+   (wire (path TOP 101600  4064000 -381000 4064000 -317500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 101600  4445000 -635000 4127500 -635000 4127500 -444500
+     4064000 -444500 4064000 -381000)
+    (connect (terminal pin X1-0) (terminal wire))
+   )
+   )
+   (Net #00016 
+   (rule
+   )
+   (wire (path TOP 101600  1778000 1778000 1778000 -444500 3619500 -444500
+     3619500 -635000)
+    (connect (terminal pin U1-8) (terminal wire))
+   )
+   (wire (path TOP 101600  3619500 -889000 3619500 -952500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 101600  3619500 -825500 3619500 -889000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 101600  3619500 -635000 3619500 -825500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 101600  4064000 -1524000 4254500 -1524000 4254500 -952500
+     3619500 -952500)
+    (connect (terminal pin C6-0) (terminal wire))
+   )
+   (wire (path TOP 101600  3937000 -635000 3619500 -635000)
+    (connect (terminal pin X1-1) (terminal wire))
+   )
+   )
+   (Net #00018 
+   (rule
+   )
+   (wire (path TOP 101600  889000 2921000 889000 2730500 -252000 2730500
+     -252000 2540000)
+    (connect (terminal pin LCD1-2) (terminal pin U1-27))
+   )
+   )
+   (Net #00019 
+   (rule
+   )
+   (wire (path TOP 101600  635000 2921000 -571500 2921000 -571500 2349500
+     0 2349500 0 2540000)
+    (connect (terminal pin LCD1-3) (terminal pin U1-26))
+   )
+   )
+   (Net #00023 
+   (rule
+   )
+   (wire (path TOP 101600  -3302000 -2794000 -3302000 -3048000 -4000500 -3048000
+     -4000500 2095500 1016000 2095500 1016000 2540000)
+    (connect (terminal pin R5-1) (terminal pin U1-22))
+   )
+   )
+   (Net #00025 
+   (rule
+   )
+   (wire (path TOP 101600  4064000 381000 4064000 2222500 1524000 2222500
+     1524000 2540000)
+    (connect (terminal pin C4-1) (terminal pin U1-20))
+   )
+   )
+   (Net #00028 
+   (rule
+   )
+   (wire (path TOP 88900  1143000 -3302000 1651000 -3302000 1651000 -3175000)
+    (connect (terminal smd L1-0) (terminal smd Q4-0))
+   )
+   )
+   (Net #00029 
+   (rule
+   )
+   (wire (path TOP 101600  762000 -3002000 762000 -3683000 5207000 -3683000
+     5207000 -508000 4953000 -508000)
+    (connect (terminal wire) (terminal pin Q1-0))
+   )
+   (wire (path TOP 101600  1143000 -3002000 1143000 -3001999 825500 -3001999
+     825500 -3002000 762000 -3002000)
+    (connect (terminal smd L1-1) (terminal wire))
+   )
+   (wire (path TOP 101600  762000 -3002000 -1841500 -3002000 -1841500 -2794000
+     -2032000 -2794000)
+    (connect (terminal wire) (terminal pin D1-0))
+   )
+   )
+   (Net #00031 
+   (rule
+   )
+   (wire (path TOP 101600  -2921000 -1524000 -2921000 -2540000)
+    (connect (terminal pin Q6-0) (terminal pin C3-1))
+   )
+   (wire (path TOP 101600  -2921000 -2540000 -3556000 -2540000 -3556000 -2794000)
+    (connect (terminal pin C3-1) (terminal pin R4-1))
+   )
+   (wire (path TOP 101600  -2921000 -2540000 -2921000 -2794000 -3048000 -2794000)
+    (connect (terminal pin C3-1) (terminal pin D1-1))
+   )
+   )
+   (Net #00033 
+   (rule
+   )
+   (wire (path TOP 101600  -3556000 -3810000 -3556000 -3175000 -3746500 -3175000
+     -3746500 -1270000 -2794000 -1270000)
+    (connect (terminal pin R4-0) (terminal wire))
+   )
+   (wire (path TOP 101600  -2794000 -1270000 -2794000 -1397000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 101600  -3810000 -3556000 -3810000 -3810000 -3556000 -3810000)
+    (connect (terminal pin Q5-0) (terminal pin R4-0))
+   )
+   (wire (path TOP 101600  -2413000 -723900 -2413000 -952500 -2794000 -952500
+     -2794000 -1270000)
+    (connect (terminal smd D2-1) (terminal wire))
+   )
+   (wire (path TOP 101600  -2794000 -1524000 -2794000 -1397000)
+    (connect (terminal pin Q6-1) (terminal wire))
+   )
+   )
+   (Net #00034 
+   (rule
+   )
+   (wire (path TOP 101600  -3048000 -3048000 -2730500 -3048000 -2730500 -2540000
+     -2667000 -2540000 -2667000 -1524000)
+    (connect (terminal pin R1-0) (terminal pin Q6-2))
+   )
+   (wire (path TOP 101600  -2667000 -1524000 -2413000 -1524000 -2413000 -1143000)
+    (connect (terminal pin Q6-2) (terminal smd D2-0))
+   )
+   )
+   (Net #00035 
+   (rule
+   )
+   (wire (path TOP 101600  -2032000 -3556000 -2222500 -3556000 -2222500 -3810000
+     -3048000 -3810000)
+    (connect (terminal pin R2-0) (terminal pin R3-0))
+   )
+   (wire (path TOP 101600  -3302000 -3810000 -3048000 -3810000)
+    (connect (terminal pin R5-0) (terminal pin R3-0))
+   )
+   )
+   (Net #00036 
+   (rule
+   )
+   (wire (path TOP 101600  -2032000 -3810000 -1714500 -3810000 -1714500 -3302000
+     -2032000 -3302000)
+    (connect (terminal pin R3-1) (terminal wire))
+   )
+   (wire (path TOP 101600  -2413000 -3302000 -2032000 -3302000)
+    (connect (terminal pin C2-1) (terminal wire))
+   )
+   (wire (path TOP 101600  -2032000 -3048000 -2032000 -3302000)
+    (connect (terminal pin R1-1) (terminal wire))
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path TOP 101600  4572000 190500 3746500 190500 3746500 2095500
+     1524000 2095500 1524000 1968500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 101600  -2413000 -2540000 -2413000 -2095500 -2222500 -2095500
+     -2222500 1968500 1270000 1968500)
+    (connect (terminal pin C3-0) (terminal wire))
+   )
+   (wire (path TOP 101600  -2921000 -3302000 -3810000 -3302000)
+    (connect (terminal pin C2-0) (terminal pin Q5-2))
+   )
+   (wire (path TOP 101600  -3048000 -3556000 -2730500 -3556000 -2730500 -3302000)
+    (connect (terminal pin R2-1) (terminal wire))
+   )
+   (wire (path TOP 101600  -2730500 -3302000 -2603500 -3302000 -2603500 -2984500
+     -2413000 -2984500 -2413000 -2540000)
+    (connect (terminal wire) (terminal pin C3-0))
+   )
+   (wire (path TOP 101600  -2921000 -3302000 -2730500 -3302000)
+    (connect (terminal pin C2-0) (terminal wire))
+   )
+   (wire (path TOP 101600  4699000 1778000 4699000 -317500)
+    (connect (terminal pin BUZ1-1) (terminal wire))
+   )
+   (wire (path TOP 101600  4699000 -317500 4572000 -317500 4572000 -127000)
+    (connect (terminal wire) (terminal pin C7-0))
+   )
+   (wire (path TOP 101600  4762500 -762000 4762500 -317500 4699000 -317500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 101600  4572000 -127000 4572000 190500)
+    (connect (terminal pin C7-0) (terminal wire))
+   )
+   (wire (path TOP 101600  4572000 190500 4572000 381000)
+    (connect (terminal wire) (terminal pin C4-0))
+   )
+   (wire (path TOP 101600  4762500 -762000 4762500 -1143000 4572000 -1143000)
+    (connect (terminal wire) (terminal pin C5-0))
+   )
+   (wire (path TOP 101600  4762500 -762000 4953000 -762000)
+    (connect (terminal wire) (terminal pin Q1-2))
+   )
+   (wire (path TOP 101600  4572000 -1143000 4572000 -1524000)
+    (connect (terminal pin C5-0) (terminal pin C6-1))
+   )
+   (wire (path TOP 101600  1270000 1968500 1524000 1968500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 101600  1524000 1968500 1524000 1778000)
+    (connect (terminal wire) (terminal pin U1-7))
+   )
+   (wire (path TOP 101600  1143000 2921000 1143000 2730500 1270000 2730500
+     1270000 2540000)
+    (connect (terminal pin LCD1-1) (terminal pin U1-21))
+   )
+   (wire (path TOP 101600  1270000 2540000 1270000 1968500)
+    (connect (terminal pin U1-21) (terminal wire))
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path TOP 101600  1397000 -2984500 1397000 -3152000 889000 -3152000
+     889000 -3492500 2470557 -3492500 2470557 -2095500 3746500 -2095500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 101600  3746500 -2095500 5461000 -2095500 5461000 2159000
+     4445000 2159000 4445000 2349500 1778000 2349500 1778000 2540000)
+    (connect (terminal wire) (terminal pin U1-19))
+   )
+   (wire (path TOP 101600  3746500 -1841500 3746500 -2095500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 101600  4064000 -1143000 3746500 -1143000 3746500 -1841500)
+    (connect (terminal pin C5-1) (terminal wire))
+   )
+   (wire (path TOP 101600  1270000 -2349500 1397000 -2349500 1397000 -2984500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path TOP 101600  1270000 -2349500 1270000 1778000)
+    (connect (terminal wire) (terminal pin U1-6))
+   )
+   (wire (path TOP 101600  1778000 2540000 1778000 2921000 1397000 2921000)
+    (connect (terminal pin U1-19) (terminal pin LCD1-0))
+   )
+   (wire (path TOP 88900  1397000 -2984500 1557020 -2984500)
+    (connect (terminal wire) (terminal smd Q4-2))
+   )
+   )
+  )
+ )

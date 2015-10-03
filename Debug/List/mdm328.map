@@ -1,0 +1,92 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+rx_data                                                                           0x0300       1
+bufer                                                                             0x0301     129
+buffer                                                                            0x0382    1024
+twi_tx_index                                                                      0x0782       1
+twi_rx_index                                                                      0x0783       1
+twi_result                                                                        0x0784       1
+dn_reg                                                                            0x0785       2
+up_reg                                                                            0x0787       2
+seans0                                                                            0x0789       1
+chel                                                                              0x078A       1
+vrem                                                                              0x078B       1
+bol0                                                                              0x078C       1
+l                                                                                 0x078D       1
+tok                                                                               0x078E       2
+tok0                                                                              0x0790       2
+period                                                                            0x0792       2
+a                                                                                 0x0794       2
+mod                                                                               0x0796       2
+paus                                                                              0x0798       2
+time                                                                              0x079A       2
+a1                                                                                0x079C       1
+a2                                                                                0x079D       1
+a3                                                                                0x079E       1
+rezh0                                                                             0x079F       1
+tok1                                                                              0x07A0       1
+timer                                                                             0x07A1       4
+slave_address                                                                     0x07A5       1
+twi_tx_buffer                                                                     0x07A6       2
+bytes_to_tx                                                                       0x07A8       1
+twi_rx_buffer                                                                     0x07A9       2
+bytes_to_rx                                                                       0x07AB       1
+twi_rx_buffer_size                                                                0x07AC       1
+twi_slave_rx_handler                                                              0x07AD       2
+twi_slave_tx_handler                                                              0x07AF       2
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+seans                                                                             0x0000      10
+bol                                                                               0x000A      10
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+i                                                                                 R3,R4        2
+j                                                                                 R5,R6        2
+n                                                                                 R7,R8        2
+m                                                                                 R9,R10       2
+k                                                                                 R11,R12      2
+o                                                                                 R13,R14      2
+fl1                                                                               GPIOR0.0  1bit
+fl2                                                                               GPIOR0.1  1bit
+fl3                                                                               GPIOR0.2  1bit
+fl4                                                                               GPIOR0.3  1bit
+fl5                                                                               GPIOR0.4  1bit
+reg1                                                                              GPIOR0.5  1bit
+reg2                                                                              GPIOR0.6  1bit
+flag0                                                                             GPIOR0.7  1bit
+fubr                                                                              R2.0      1bit
+twi_flag                                                                          R2.1      1bit
+twi_ready                                                                         R2.2      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+clearDisplay                                                                      0x013B2     18
+drawPixel                                                                         0x013C4     49
+drawLine                                                                          0x013F5    143
+fillRect                                                                          0x01484     35
+drawChar                                                                          0x014A7     38
+drawCharZ                                                                         0x014CD     80
+drawCharZo                                                                        0x0151D    120
+drawStringZ                                                                       0x01595     47
+initDisplay                                                                       0x015C4     11
+display                                                                           0x015CF    115
+read_adc                                                                          0x01642     21
+ext_int0_isr                                                                      0x01657      7
+timer1_ovf_isr                                                                    0x0165E    574
+timer2_ovf_isr                                                                    0x0189C     29
+ZnachZ                                                                            0x018B9     66
+ZnachZo                                                                           0x018FB     59
+timeZ                                                                             0x01936    104
+vibor                                                                             0x0199E    380
+main                                                                              0x01B1A   1930
+sleep_enable                                                                      0x022A4      4
+powerdown                                                                         0x022A8      9
+twi_master_init                                                                   0x022B1     47
+twi_master_trans                                                                  0x022E0    109
+twi_int_handler                                                                   0x0234D    387

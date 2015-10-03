@@ -1,0 +1,7 @@
+VERSION:3 SOURCE_TIMESTAMP:46787BDD
+NODE:V LEVEL:0 LINE:6 "rx_data -> RAM:????"
+NODE:V LEVEL:0 LINE:6 "bufer -> RAM:????"
+NODE:I LEVEL:0 LINE:14 "F:\Project\Micro\AVR\MDM_328\glcdfont.c"
+NODE:I LEVEL:0 LINE:15 "C:\cvavr\inc\twi.h"
+NODE:F LEVEL:0 LINE:17 "initDisplay(void)"
+NODE:F LEVEL:0 LINE:26 "display(int x,int y,int x2,int y2)"
